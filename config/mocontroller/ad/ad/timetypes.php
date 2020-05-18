@@ -12,11 +12,10 @@
                     'form'=>[          
                         'name'=>['text','Név',[]],
                         'note'=>['text','Megjegyzés',[]],
-                       // 'workday'=>['radiolist','',[['1','Munkanap' ],['0','Pihenőnap',true ]]] ,
-                        'szorzo'=>['number','Szorzó',[ 'step' => '0.01']],
-                      //  'fixplusz'=>['number','Fixplusz',[]],  
+       
+                        'szorzo'=>['number','Szorzó',[ 'step' => '0.01']], 
                         'pub'=>['radiolist','',[['1','Tiltva' ],['0','Engedélyezve',true ]]] ,
-                         'submit'=>['submit','Cég mentése'], //,'submit'=>['submit','Ment','class'=>'btn btn-danger'] 
+                         'submit'=>['submit','Időtipus mentése'],
                         'formend'=>['formend']
                 ] ] 
         ],
@@ -29,8 +28,6 @@
                     'szorzo'=>['Szorzó',],
                     'fixplusz'=>['fixplusz'],
                     'note'=>['megjegyzés'],
-                   // 'workday'=>['Munkanap'],
-
                 ],
                 'table_action'=> ['show'=>true,'edit'=>true,'destroy'=>true  ]
                 ] ,     
